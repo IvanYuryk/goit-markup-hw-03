@@ -11,10 +11,35 @@ a {
 }
 
 ul {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   list-style-type: none;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 /* ========= header ========= */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .header-logo {
   color: #4d5ae5;
@@ -78,14 +103,24 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid orangered;
+}
 
 /*===== slogan =====*/
 
-.slogan-title {
+.slogan {
   background-color: #2e2f42;
 }
 
-.slogan-title-text {
+slogan-container {
+}
+
+.slogan-text {
   color: #ffffff;
   text-align: center;
   font-size: 56px;
