@@ -41,18 +41,24 @@ img {
   height: auto;
 }
 
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* ========= header ========= */
 
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-
   background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navi {
@@ -91,6 +97,8 @@ img {
 
 .header-link {
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-item {
@@ -132,12 +140,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.container {
-  width: 100%;
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 /*===== slogan =====*/
